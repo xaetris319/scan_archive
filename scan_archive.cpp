@@ -9,7 +9,7 @@
 #include <array>
 #include <vector>
 
-#include "messages.h"
+#include "messages.hpp"
 
 std::string add_leading_zeros(const std::string& input, const int& req_length) {
 	std::string result = input;
